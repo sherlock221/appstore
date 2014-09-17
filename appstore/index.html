@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
-		<title></title>
+		<title>主界面</title>
 		<script src="js/mui.min.js"></script>
 		<link href="css/mui.min.css" rel="stylesheet" />
 		<script src="js/app.js" type="text/javascript" charset="utf-8"></script>
@@ -24,53 +24,8 @@
 		</header>
 
 
-		<!--底部选项卡-->
-		<nav class="mui-bar mui-bar-tab">
-			<a class="mui-tab-item mui-active" href="#recommend-bar">
-				<span class="mui-icon mui-icon-home"></span>
-				<span class="mui-tab-label">精彩推荐</span>
-			</a>
-			<a class="mui-tab-item" href="ranking-bar">
-				<span class="mui-icon mui-icon-phone"></span>
-				<span class="mui-tab-label">排行榜</span>
-			</a>
-			<a class="mui-tab-item" href="#near-bar">
-				<span class="mui-icon mui-icon-email"></span>
-				<span class="mui-tab-label">我的附近</span>
-			</a>
-			<a class="mui-tab-item" href="#search-bar">
-				<span class="mui-icon mui-icon-gear"></span>
-				<span class="mui-tab-label">搜索</span>
-			</a>
-			<a class="mui-tab-item" href="#update-bar">
-				<span class="mui-icon mui-icon-gear"></span>
-				<span class="mui-tab-label">更新</span>
-			</a>
-		</nav>
-
-		<script type="text/javascript">
-			mui.init({
-				swipeBack: false,
-				subpages: [{
-					id: "list",
-					url: "list.html",
-					styles: {
-						top: "48px",
-						bottom: "50px"
-					}
-				}]
-			});
-
-			$.plusReady(function() {
-				//预加载，默认使用url作为其id
-				$.createWindow({
-					url: "/page/category.html",
-					preload: true
-				});
-			});
-		</script>
-		<script type="text/javascript" charset="utf-8" src="js/service/index.js"></script>
 
 	</body>
-
+	<!-- 基本业务js -->
+		<script type="text/javascript" charset="utf-8" src="js/service/index.js"></script>
 </html>
