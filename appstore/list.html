@@ -11,11 +11,139 @@
 	</head>
 
 	<body>
-		
-		
-		<div class="mui-content">
-			<div id="recommend-bar" class="mui-control-content mui-active">
-				<h3>推荐</h3>
+
+
+		<div class="mui-content" id="ct" >
+			<div id="recommend-bar" class="mui-control-content mui-active ct">
+
+				<!-- 图片轮播处 -->
+				<div id="slider" class="mui-slider">
+					<div class="mui-slider-group mui-slider-loop">
+						<div class="mui-slider-item mui-slider-item-duplicate">
+							<a href="#">
+								<img src="imgs/yuantiao.jpg">
+							</a>
+						</div>
+						<div class="mui-slider-item">
+							<a href="#">
+								<img src="imgs/Windows 7 Ultimate with Service Pack 1 (x64) - DVD (Chinese-Simplified).jpg">
+							</a>
+						</div>
+						<div class="mui-slider-item">
+							<a href="#">
+								<img src="imgs/muwu.jpg">
+							</a>
+						</div>
+						<div class="mui-slider-item">
+							<a href="#">
+								<img src="imgs/cbd.jpg">
+							</a>
+						</div>
+						<div class="mui-slider-item">
+							<a href="#">
+								<img src="imgs/yuantiao.jpg">
+							</a>
+						</div>
+						<div class="mui-slider-item mui-slider-item-duplicate">
+							<a href="#">
+								<img src="imgs/Windows 7 Ultimate with Service Pack 1 (x64) - DVD (Chinese-Simplified).jpg">
+							</a>
+						</div>
+					</div>
+					<div class="mui-slider-indicator">
+						<div class="mui-indicator mui-active"></div>
+						<div class="mui-indicator"></div>
+						<div class="mui-indicator"></div>
+						<div class="mui-indicator"></div>
+					</div>
+				</div>
+
+				<!-- 横向列表 -->
+				<ul class="mui-table-view">
+					<li class="mui-table-view-cell mui-hidden">cared
+						<div id="M_Toggle" class="mui-switch mui-active">
+							<div class="mui-switch-handle"></div>
+						</div>
+					</li>
+					<li class="mui-table-view-cell mui-media">
+						<a href="#">
+							<img class="mui-media-object mui-pull-right" src="imgs/Windows 7 Ultimate with Service Pack 1 (x64) - DVD (Chinese-Simplified).jpg">
+							<div class="mui-media-body">
+								幸福
+								<p class='mui-ellipsis'>能和心爱的人一起睡觉，是件幸福的事情；可是，打呼噜怎么办？</p>
+							</div>
+						</a>
+					</li>
+					<li class="mui-table-view-cell mui-media">
+						<a href="#">
+							<img class="mui-media-object mui-pull-right" src="imgs/muwu.jpg">
+							<div class="mui-media-body">
+								木屋
+								<p class='mui-ellipsis'>想要这样一间小木屋，夏天挫冰吃瓜，冬天围炉取暖.</p>
+							</div>
+						</a>
+					</li>
+					<li class="mui-table-view-cell mui-media">
+						<a href="#">
+							<img class="mui-media-object mui-pull-right" src="imgs/cbd.jpg">
+							<div class="mui-media-body">
+								CBD
+								<p class='mui-ellipsis'>烤炉模式的城，到黄昏，如同打翻的调色盘一般.</p>
+							</div>
+						</a>
+					</li>
+					<li class="mui-table-view-cell mui-media">
+						<a href="#">
+							<img class="mui-media-object mui-pull-right" src="imgs/yuantiao.jpg">
+							<div class="mui-media-body">
+								远眺
+								<p class='mui-ellipsis'>静静的看这个世界，最后终于疯了</p>
+							</div>
+						</a>
+					</li>
+					<li class="mui-table-view-cell mui-hidden">cared
+						<div id="M_Toggle" class="mui-switch mui-active">
+							<div class="mui-switch-handle"></div>
+						</div>
+					</li>
+					<li class="mui-table-view-cell mui-media">
+						<a href="#">
+							<img class="mui-media-object mui-pull-right" src="imgs/Windows 7 Ultimate with Service Pack 1 (x64) - DVD (Chinese-Simplified).jpg">
+							<div class="mui-media-body">
+								幸福
+								<p class='mui-ellipsis'>能和心爱的人一起睡觉，是件幸福的事情；可是，打呼噜怎么办？</p>
+							</div>
+						</a>
+					</li>
+					<li class="mui-table-view-cell mui-media">
+						<a href="#">
+							<img class="mui-media-object mui-pull-right" src="imgs/muwu.jpg">
+							<div class="mui-media-body">
+								木屋
+								<p class='mui-ellipsis'>想要这样一间小木屋，夏天挫冰吃瓜，冬天围炉取暖.</p>
+							</div>
+						</a>
+					</li>
+					<li class="mui-table-view-cell mui-media">
+						<a href="#">
+							<img class="mui-media-object mui-pull-right" src="imgs/cbd.jpg">
+							<div class="mui-media-body">
+								CBD
+								<p class='mui-ellipsis'>烤炉模式的城，到黄昏，如同打翻的调色盘一般.</p>
+							</div>
+						</a>
+					</li>
+					<li class="mui-table-view-cell mui-media">
+						<a href="#">
+							<img class="mui-media-object mui-pull-right" src="imgs/yuantiao.jpg">
+							<div class="mui-media-body">
+								远眺
+								<p class='mui-ellipsis'>静静的看这个世界，最后终于疯了</p>
+							</div>
+						</a>
+					</li>
+				</ul>
+
 			</div>
 			<div id="ranking-bar" class="mui-control-content">
 				<h3>排行榜</h3>
@@ -30,8 +158,8 @@
 				<h3>更新</h3>
 			</div>
 		</div>
-		
-		
+
+
 		<!--底部选项卡-->
 		<nav class="mui-bar mui-bar-tab">
 			<a class="mui-tab-item mui-active" href="#recommend-bar">
@@ -55,11 +183,26 @@
 				<span class="mui-tab-label">更新</span>
 			</a>
 		</nav>
-		
+
 
 	</body>
 	<script type="text/javascript" charset="utf-8">
-		mui.init({ });
+		mui.init({
+			swipeBack: false,
+			pullRefresh: {
+				container: ".ct", //待刷新区域标识，querySelector能定位的css选择器均可，比如：id、.class等
+				down: {
+					contentdown: "下拉可以刷新", //可选，在下拉可刷新状态时，下拉刷新控件上显示的标题内容
+					contentover: "释放立即刷新", //可选，在释放可刷新状态时，下拉刷新控件上显示的标题内容
+					contentrefresh: "正在刷新...", //可选，正在刷新状态时，下拉刷新控件上显示的标题内容
+					callback: function() {
+							return false;
+					}
+
+				}
+				
+			}
+		});
 	</script>
-	
+
 </html>

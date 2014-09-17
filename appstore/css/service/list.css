@@ -1,0 +1,37 @@
+.hoz-main{
+	padding: 10px 20px;
+	background: #fff;
+	
+	position: relative;
+width: 100%;
+overflow: hidden;
+}
+.hoz-list{
+	overflow: hidden;
+	padding-left: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	list-style: none;
+	background-color: #fff;
+}
+.hoz-list>li{
+	float: left;
+	width: 120px;
+	list-style: none;
+	margin-left: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.hoz-list>li:first-child{
+	margin-left: 0;	
+}
+.hoz-list>li >a{
+	display: block;
+}
+
+.hoz-list .hoz-img{
+	width: 100px;
+	max-height: 70px;
+	height: 70px;	
+	border-radius: 6px;
+}
